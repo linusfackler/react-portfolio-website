@@ -18,52 +18,52 @@ const Skills = () => {
           <h3>Programming Languages</h3>
           <div className="skills__content">
             <article className='skills__details'>
-              <AiOutlineCode/>
+              <AiOutlineCode className='skills__details-icon'/>
               <h4>C++</h4>
             </article>
 
             <article className='skills__details'>
-              <AiOutlineCode/>
+              <AiOutlineCode className='skills__details-icon'/>
               <h4>JAVA</h4>
             </article>
 
             <article className='skills__details'>
-              <AiOutlineCode/>
+              <AiOutlineCode className='skills__details-icon'/>
               <h4>Python</h4>
             </article>
 
             <article className='skills__details'>
-              <AiOutlineCode/>
+              <AiOutlineCode className='skills__details-icon'/>
               <h4>C#</h4>
             </article>
 
             <article className='skills__details'>
-              <AiOutlineCode/>
+              <AiOutlineCode className='skills__details-icon'/>
               <h4>Ruby</h4>
             </article>
 
             <article className='skills__details'>
-              <AiOutlineCode/>
+              <AiOutlineCode className='skills__details-icon'/>
               <h4>C</h4>
             </article>
 
             <article className='skills__details'>
-              <AiOutlineCode/>
+              <AiOutlineCode className='skills__details-icon'/>
               <h4>JavaScript</h4>
             </article>
 
             <article className='skills__details'>
-              <AiOutlineCode/>
+              <AiOutlineCode className='skills__details-icon'/>
               <h4>CSS</h4>
             </article>
 
             <article className='skills__details'>
-              <AiOutlineCode/>
+              <AiOutlineCode className='skills__details-icon'/>
               <h4>Go</h4>
             </article>
 
             <article className='skills__details'>
-              <AiOutlineCode/>
+              <AiOutlineCode className='skills__details-icon'/>
               <h4>Racket</h4>
             </article>
           </div>
@@ -75,52 +75,52 @@ const Skills = () => {
         <h3>Technologies</h3>
           <div className="skills__content">
             <article className='skills__details'>
-              <CiMicrochip/>
+              <CiMicrochip className='skills__details-icon'/>
               <h4>MySQL</h4>
             </article>
 
             <article className='skills__details'>
-              <CiMicrochip/>
+              <CiMicrochip className='skills__details-icon'/>
               <h4>Oracle</h4>
             </article>
 
             <article className='skills__details'>
-              <CiMicrochip/>
+              <CiMicrochip className='skills__details-icon'/>
               <h4>React</h4>
             </article>
 
             <article className='skills__details'>
-              <CiMicrochip/>
+              <CiMicrochip className='skills__details-icon'/>
               <h4>Node.js</h4>
             </article>
 
             <article className='skills__details'>
-              <CiMicrochip/>
+              <CiMicrochip className='skills__details-icon'/>
               <h4>.NET Framework</h4>
             </article>
 
             <article className='skills__details'>
-              <CiMicrochip/>
+              <CiMicrochip className='skills__details-icon'/>
               <h4>Amazon Web Services</h4>
             </article>
 
             <article className='skills__details'>
-              <CiMicrochip/>
+              <CiMicrochip className='skills__details-icon'/>
               <h4>Microsoft Azure</h4>
             </article>
 
             <article className='skills__details'>
-              <CiMicrochip/>
+              <CiMicrochip className='skills__details-icon'/>
               <h4>Google Cloud Platform</h4>
             </article>
 
             <article className='skills__details'>
-              <CiMicrochip/>
+              <CiMicrochip className='skills__details-icon'/>
               <h4>jQuery</h4>
             </article>
 
             <article className='skills__details'>
-              <CiMicrochip/>
+              <CiMicrochip className='skills__details-icon'/>
               <h4>Git</h4>
             </article>
           </div>
