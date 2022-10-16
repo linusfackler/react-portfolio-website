@@ -3,6 +3,7 @@ import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
 import Education from './components/education/Education'
+import Skills from './components/skills/Skills'
 import Experience from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
@@ -15,6 +16,7 @@ const App = () => {
         <Nav />
         <About />
         <Education />
+        <Skills />
         <Experience />
         <Portfolio />
         <Contact />

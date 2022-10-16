@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
+import {SlGraduation} from 'react-icons/sl'
 
 const About = () => {
   return (
@@ -18,9 +19,30 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              
+              <SlGraduation className='about__icon'/>
+              <h5>Experience</h5>
+              <small>3+ Years Your mom</small>
+            </article>
+
+            <article className='about__card'>
+              <SlGraduation className='about__icon'/>
+              <h5>Experience</h5>
+              <small>3+ Years Your mom</small>
+            </article>
+
+            <article className='about__card'>
+              <SlGraduation className='about__icon'/>
+              <h5>Experience</h5>
+              <small>3+ Years Your mom</small>
             </article>
           </div>
+
+          <p>
+            Your mom Your mom Your mom Your mom Your mom Your mom Your mom Your mom Your mom Your mom Your mom
+            Your mom Your mom Your mom Your mom Your mom Your mom Your mom Your mom Your mom Your mom
+          </p>
+
+          <a href="#contact" className='btn btn-primary'>Hit me up</a>
         </div>
       </div>
     </section>
