@@ -1,0 +1,55 @@
+.education__header {
+    color: var(--color-primary);
+    margin-bottom: 0;
+}
+
+.education__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    scale: 80%;
+}
+
+.education__box > div {
+    background: linear-gradient(var(--color-bg-variant), var(--color-bg));
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.education__box > div:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.education__container > div h2 {
+    text-align: center;
+    margin: 1rem 0 1rem;
+    color: var(--color-primary);
+}
+
+.education__info {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.education__info small {
+    font-size: 0.9rem;
+    color: var(--color-light);
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ================== */
+@media screen and (max-width: 1024px) {
+    .education__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) ================== */
+@media screen and (max-width: 600px) {
+    .education__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
