@@ -27,7 +27,7 @@ const Contact = () => {
           <article className="contact__option">
             <AiOutlineLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
-            <a href="http://www.linkedin.com/in/linusfackler" target="_blank">Connect with Me</a>
+            <a href="http://www.linkedin.com/in/linusfackler" target="_blank">Connect with me</a>
           </article>
 
           {/* ========= EMAIL ========== */}
