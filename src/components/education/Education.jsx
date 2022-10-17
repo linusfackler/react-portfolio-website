@@ -17,7 +17,7 @@ const Education = () => {
 
         <div className="education__info">
           <h2>B.S. in Computer Science  |  GPA: 3.9</h2>
-          <h3>University of Texas at Dallas</h3>
+          <h3>University of Texas at Dallas (UTD)</h3>
           <h4>Graduating May 2023</h4>
           <small><br/>Relevant Coursework: <br/>
             Data Structures & Algorithms, Object Oriented Programming (OOP), Programming in C, C++,
