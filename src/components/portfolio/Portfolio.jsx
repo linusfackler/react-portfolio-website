@@ -101,6 +101,21 @@ const Portfolio = () => {
             {
               return (
                 <article key={id} className='portfolio__item'>
+                  <div className="portfolio__item-image">
+                    <img src={image} alt={title} />
+                  </div>
+                  <h3>{title}</h3>
+                  <small>{description}</small>
+                  <div className="portfolio__item-cta">
+                    <a href={github} className='btn' target='_blank'>GitHub</a>
+                  </div>
+                </article>
+              )
+            }
+
+            // ======= GAMES =======
+            return (
+              <article key={id} className='portfolio__item'>
                 <div className="portfolio__item-image">
                   <img src={image} alt={title} />
                 </div>
@@ -108,24 +123,9 @@ const Portfolio = () => {
                 <small>{description}</small>
                 <div className="portfolio__item-cta">
                   <a href={github} className='btn' target='_blank'>GitHub</a>
+                  <a href={itch} className='btn btn-primary' target='_blank'>Itch</a>
                 </div>
               </article>
-              )
-            }
-
-            // ======= GAMES =======
-            return (
-              <article key={id} className='portfolio__item'>
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <small>{description}</small>
-              <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='_blank'>GitHub</a>
-                <a href={itch} className='btn btn-primary' target='_blank'>Itch</a>
-              </div>
-            </article>
             )
           })
         }

@@ -1,0 +1,52 @@
+.experience__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.experience__item-image {
+    border-radius: 50rem;
+    overflow: hidden;
+}
+
+.experience__text {
+    text-align: center;
+}
+
+.experience__duration {
+    text-align: center;
+    color: var(--color-light);
+    margin-bottom: 1rem;
+}
+
+.experience__item {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+    backface-visibility: hidden;
+}
+
+.experience__item--front {
+    background: linear-gradient(to bottom right, var(--color-bg-variant), var(--color-bg));
+    padding: 2rem;
+    border-radius: 2rem;
+    /* border: 1px solid transparent; */
+    /* transition: var(--transition); */
+}
+
+.experience__item.is-flipped {
+    transform: rotateY(180deg);
+}
+
+/* .experience__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+} */
+
+.experience__container-back {
+    background-color: white;
+    transform: rotateY(180deg);
+}
