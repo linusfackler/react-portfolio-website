@@ -8,10 +8,12 @@ import Experience from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import ParticlesBackground from './components/particles/ParticlesBackground'
 
 const App = () => {
   return (
     <>
+        <ParticlesBackground />
         <Header />
         <Nav />
         <About />

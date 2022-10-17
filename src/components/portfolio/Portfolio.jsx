@@ -1,14 +1,14 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio2.png'
-import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio4.png'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.png'
-import IMG7 from '../../assets/portfolio7.png'
-import IMG8 from '../../assets/portfolio8.png'
-import IMG9 from '../../assets/portfolio9.png'
+import IMG1 from '../../assets/killswitch.png'
+import IMG2 from '../../assets/react.png'
+import IMG3 from '../../assets/os.png'
+import IMG4 from '../../assets/automata.png'
+import IMG5 from '../../assets/telephone.png'
+import IMG6 from '../../assets/ml.png'
+import IMG7 from '../../assets/compiler.png'
+import IMG8 from '../../assets/terminal.png'
+import IMG9 from '../../assets/mario.png'
 
 
 const data = [
@@ -35,16 +35,6 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'DFA-Interpreter | Automata Theory (UTD)',
-    description: '• Developed a program that reads in a Deterministic Finite Automata & tests it for correctness',
-    description2: '',
-    skills: 'C++',
-    github: 'https://github.com',
-    itch: ""
-  },
-  {
-    id: 4,
-    image: IMG4,
     title: 'Exploring Multiple Processes and IPC | Operating Systems (UTD)',
     description: '• Developed a program that simulates a simple computer system consisting of CPU and Memory',
     description2: '• Used forks & pipes to operate in a Unix environment',
@@ -53,11 +43,21 @@ const data = [
     itch: ""
   },
   {
+    id: 4,
+    image: IMG4,
+    title: 'DFA-Interpreter | Automata Theory (UTD)',
+    description: '• Developed a program that reads in a Deterministic Finite Automata & tests it for correctness',
+    description2: '',
+    skills: 'C++',
+    github: 'https://github.com/linusfackler/Automata-Theory/tree/main/Coding%203',
+    itch: ""
+  },
+  {
     id: 5,
     image: IMG5,
     title: 'Energetic Telephone',
     description: '• Developed a polished 3D game using Godot in a team of 2',
-    description2: '• Using CS concepts like Data Structures, OOP, and algorithms, implemented a game in under 24 hours',
+    description2: '• Implemented a game in under 24 hours using CS concepts like Data Structures, OOP, and algorithms, ',
     skills: 'Godot Script (Python similar), OOP',
     github: 'https://github.com/PlatinShadow/JameGam',
     itch: 'https://platinshadow.itch.io/energetic-telephone'
@@ -95,11 +95,11 @@ const data = [
   {
     id: 9,
     image: IMG9,
-    title: 'Project title',
-    description: 'project descrption yousiofhjieso jhoefishj fjoiesj jieos',
-    description2: '• Developed a local multiplayer game in a 2D environment in under 1 week using C# & OOP principles',
-    skills: 'C#, Unity, OOP',
-    github: 'https://github.com',
+    title: 'Mario 2: Electric Boogaloo',
+    description: '• Developed a 2D platformer in a team of 3 in a 2 day game jam',
+    description2: '• Won first place at MSU Texas Game Jam in a participants vote',
+    skills: 'GDevelop, JavaScript',
+    github: 'https://github.com/linusfackler/GameJamSpring21',
     itch: 'https://linusfackler.itch.io/mario-2-electric-boogaloo'
   }
 ]
