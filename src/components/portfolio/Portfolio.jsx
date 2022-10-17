@@ -5,10 +5,10 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
-import IMG7 from '../../assets/portfolio6.jpg'
-import IMG8 from '../../assets/portfolio6.jpg'
-import IMG9 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio6.png'
+import IMG7 from '../../assets/portfolio7.png'
+import IMG8 from '../../assets/portfolio8.png'
+import IMG9 from '../../assets/portfolio9.png'
 
 
 const data = [
@@ -55,42 +55,42 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'Project title',
-    description: 'project descrption yousiofhjieso jhoefishj fjoiesj jieos',
-    description2: '• Developed a local multiplayer game in a 2D environment in under 1 week using C# & OOP principles',
-    skills: 'C#, Unity, OOP',
-    github: 'https://github.com',
-    itch: 'link'
+    title: 'Energetic Telephone',
+    description: '• Developed a polished 3D game using Godot in a team of 2',
+    description2: '• Using CS concepts like Data Structures, OOP, and algorithms, implemented a game in under 24 hours',
+    skills: 'Godot Script (Python similar), OOP',
+    github: 'https://github.com/PlatinShadow/JameGam',
+    itch: 'https://platinshadow.itch.io/energetic-telephone'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Project title',
-    description: 'project descrption yousiofhjieso jhoefishj fjoiesj jieos',
-    description2: '• Developed a local multiplayer game in a 2D environment in under 1 week using C# & OOP principles',
-    skills: 'C#, Unity, OOP',
-    github: 'https://github.com',
-    itch: 'link'
+    title: 'Searching for Similarity | Intro to Machine Learning (UTD)',
+    description: '• Developed in a team of 4 a program to compare different Machine Learning Algorithms',
+    description2: '• Regression, Classification, Clustering, & Dimensionality',
+    skills: 'R, Machine Learning',
+    github: 'https://github.com/linusfackler/CS4375-Machine-Learning/tree/main/Searching%20for%20Similarity',
+    itch: ""
   },
   {
     id: 7,
     image: IMG7,
-    title: 'Project title',
-    description: 'project descrption yousiofhjieso jhoefishj fjoiesj jieos',
-    description2: '• Developed a local multiplayer game in a 2D environment in under 1 week using C# & OOP principles',
-    skills: 'C#, Unity, OOP',
-    github: 'https://github.com',
-    itch: 'link'
+    title: 'Compiler Design',
+    description: '• Created a Compiler containing a Scanner and Parser to compile a language',
+    description2: '• Developed a program to parse a grammar and read test files',
+    skills: 'Java, JFlex, Cup',
+    github: 'https://github.com/linusfackler/Compiler-Design',
+    itch: ""
   },
   {
     id: 8,
     image: IMG8,
-    title: 'Project title',
-    description: 'project descrption yousiofhjieso jhoefishj fjoiesj jieos',
-    description2: '• Developed a local multiplayer game in a 2D environment in under 1 week using C# & OOP principles',
-    skills: 'C#, Unity, OOP',
-    github: 'https://github.com',
-    itch: 'link'
+    title: 'U-Secure by Terminal© | Software Engineering (UTD)',
+    description: '• Developing a software for a fingerprint-based ATM',
+    description2: '• Planned a 16 week software project in a team of 4 (work in progress)',
+    skills: 'Java',
+    github: 'https://github.com/linusfackler/u-secure-terminal',
+    itch: ""
   },
   {
     id: 9,
@@ -100,7 +100,7 @@ const data = [
     description2: '• Developed a local multiplayer game in a 2D environment in under 1 week using C# & OOP principles',
     skills: 'C#, Unity, OOP',
     github: 'https://github.com',
-    itch: 'link'
+    itch: 'https://linusfackler.itch.io/mario-2-electric-boogaloo'
   }
 ]
 
@@ -115,7 +115,7 @@ const Portfolio = () => {
           data.map(({id, image, title, description, description2, skills, github, itch}) => {
 
             // ======= NORMAL PROJECTS =======
-            if (itch == "")
+            if (itch === "")
             {
               return (
                 <article key={id} className='portfolio__item'>
