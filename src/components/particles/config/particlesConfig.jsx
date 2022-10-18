@@ -22,7 +22,7 @@ const particlesConfig = {
     },
     fullScreen: {
       enable: true,
-      zIndex: -1
+      zIndex: 4
     },
     detectRetina: true,
     duration: 0,
