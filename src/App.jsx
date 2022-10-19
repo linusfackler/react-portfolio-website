@@ -9,12 +9,11 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import ParticlesBackground from './components/particles/ParticlesBackground'
-import Particle from './components/particles/Particle'
 
 const App = () => {
   return (
     <>
-        <Particle />
+        <ParticlesBackground />
         <Header />
         <Nav />
         <About />
