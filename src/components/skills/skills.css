@@ -8,14 +8,14 @@
     background: linear-gradient(var(--color-bg-variant), var(--color-bg));
     padding: 2.4rem 5rem;
     border-radius: 2rem;
+    border: 1px solid transparent;
     transition: var(--transition);
 }
 
 .skills__container > div:hover {
-    background: var(--color-bg);
-    border: 1px solid transparent;
     border-color: var(--color-primary-variant);
-    cursor: default;
+    backdrop-filter: blur(15px);
+    background: transparent;
 }
 
 .skills__container > div h3 {

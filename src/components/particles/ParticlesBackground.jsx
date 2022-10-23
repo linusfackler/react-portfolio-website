@@ -113,7 +113,7 @@ const ParticlesBackground = () => {
     //   onParticlesLoaded={onParticlesLoaded}
     //   particlesInit={particlesInit}
     // />
-    <Particles param={particlesConfig} />
+    <Particles params={particlesConfig} />
   );
 };
 

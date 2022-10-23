@@ -19,6 +19,7 @@
 
 .education__box > div:hover {
     border-color: var(--color-primary-variant);
+    backdrop-filter: blur(15px);
     background: transparent;
 }
 
