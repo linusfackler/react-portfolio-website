@@ -76,7 +76,7 @@ const Skills = () => {
           <div className="skills__content">
             <article className='skills__details'>
               <CiMicrochip className='skills__details-icon'/>
-              <h4>MySQL</h4>
+              <h4>SQL</h4>
             </article>
 
             <article className='skills__details'>
@@ -91,7 +91,7 @@ const Skills = () => {
 
             <article className='skills__details'>
               <CiMicrochip className='skills__details-icon'/>
-              <h4>Node.js</h4>
+              <h4>Ruby on Rails</h4>
             </article>
 
             <article className='skills__details'>

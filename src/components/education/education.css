@@ -19,7 +19,7 @@
 
 .education__box > div:hover {
     border-color: var(--color-primary-variant);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     background: transparent;
 }
 
@@ -45,6 +45,12 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+    .education__box > div {
+        padding: 2.4rem 2rem;
+    }
+    .education__school-image {
+        margin-top: 5.5rem;
+    }
 }
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) ================== */
@@ -52,5 +58,8 @@
     .education__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+    .education__school-image {
+        margin-top: 2rem;
     }
 }

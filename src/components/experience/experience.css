@@ -44,7 +44,7 @@
 
 .experience__item:hover {
     border-color: var(--color-primary-variant);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     background: transparent;
 }
 

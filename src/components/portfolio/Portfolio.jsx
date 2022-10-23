@@ -88,7 +88,7 @@ const data = [
     title: 'U-Secure by Terminal© | Software Engineering (UTD)',
     description: '• Developing a software for a fingerprint-based ATM',
     description2: '• Planned a 16 week software project in a team of 4 (work in progress)',
-    skills: 'Java',
+    skills: 'Java, Project Planning and Design',
     github: 'https://github.com/linusfackler/u-secure-terminal',
     itch: ""
   },

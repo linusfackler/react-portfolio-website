@@ -127,7 +127,7 @@ const particlesConfig = {
             value: "#ff0000",
             animation: {
               enable: true,
-              speed: 400,
+              speed: 600,
               sync: true
             }
           },
@@ -307,7 +307,7 @@ const particlesConfig = {
       },
       random: false,
       size: false,
-      speed: 2,
+      speed: 0.9,
       spin: {
         acceleration: 0,
         enable: false
