@@ -5,7 +5,7 @@
 }
 
 .skills__container > div {
-    background: linear-gradient(var(--color-bg-variant), var(--color-bg));
+    background: linear-gradient(to right bottom, var(--color-bg-variant), var(--color-bg));
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;

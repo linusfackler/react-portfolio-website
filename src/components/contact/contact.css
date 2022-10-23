@@ -12,7 +12,7 @@
 }
 
 .contact__option {
-    background: var(--color-bg-variant);
+    background: linear-gradient(to right bottom, var(--color-bg-variant), var(--color-bg));
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -52,6 +52,7 @@ input, textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    backdrop-filter: blur(7px);
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================== */
