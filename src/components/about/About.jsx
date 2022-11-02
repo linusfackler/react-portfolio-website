@@ -45,7 +45,7 @@ const About = () => {
             after graduating with my Bachelor of Science in Computer Science, before attending Grad school for a Master's in CS.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Hit me up</a>
+          <a href="#contact" className='btn btn-primary'>Connect with me</a>
         </div>
       </div>
     </section>
