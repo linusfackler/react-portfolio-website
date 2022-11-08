@@ -73,6 +73,40 @@ header {
     font-size: 0.9rem;
 }
 
+/* =============== MEDIA QUERIES (LAPTOPS) ================== */
+@media screen and (max-height: 700px) {
+    .me {
+        width: 24rem;
+        height: 24rem;
+        left: calc(50% - 12rem);
+    }
+}
+
+/* =============== MEDIA QUERIES (LAPTOPS SMALL) ================== */
+@media screen and (max-height: 600px) {
+    header {
+        padding-top: 1rem;
+        height: 130vh;
+    }
+    .me {
+        width: 20rem;
+        height: 20rem;
+        left: calc(50% - 10rem);
+    }
+}
+
+/* =============== MEDIA QUERIES (LAPTOPS TINY) ================== */
+@media screen and (max-height: 470px) {
+    header {
+        height: 120vh;
+    }
+    .me {
+        width: 14rem;
+        height: 14rem;
+        left: calc(50% - 7rem);
+    }
+}
+
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================== */
 @media screen and (max-width: 1024px) {
     header {

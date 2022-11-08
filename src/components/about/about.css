@@ -34,7 +34,7 @@
     background: linear-gradient(to right bottom, var(--color-bg-variant), var(--color-bg));
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 0.6rem;
     text-align: center;
     transform: var(--transition);
 }

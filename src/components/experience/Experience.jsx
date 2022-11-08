@@ -19,9 +19,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    company: 'Association for Computing Machinery',
+    company: 'University of Texas at Dallas',
     duration: 'September 2022 - present',
-    title: 'Research Assistant'
+    title: 'Undergraduate Research Assistant'
   },
   {
     id: 3,

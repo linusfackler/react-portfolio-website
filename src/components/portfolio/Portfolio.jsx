@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/killswitch.png'
+import IMG1 from '../../assets/ml.png'
 import IMG2 from '../../assets/react.png'
 import IMG3 from '../../assets/os.png'
 import IMG4 from '../../assets/automata.png'
 import IMG5 from '../../assets/telephone.png'
-import IMG6 from '../../assets/ml.png'
+import IMG6 from '../../assets/killswitch.png'
 import IMG7 from '../../assets/compiler.png'
 import IMG8 from '../../assets/terminal.png'
 import IMG9 from '../../assets/mario.png'
@@ -15,19 +15,19 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Kill Switch',
-    description: '• Part of a team of 6 people including programmers, artists, level-designers',
-    description2: '• Developed a local multiplayer game in a 2D environment in under 1 week using C# & OOP principles',
-    skills: 'C#, Unity, OOP',
-    github: 'https://github.com/TrystonMinsquero/SGDA-Fall-Game-Jam-2021',
-    itch: "https://tryston.itch.io/killswitch"
+    title: 'Searching for Similarity | Intro to Machine Learning (UTD)',
+    description: '• Developed in a team of 4 a program to compare different Machine Learning Algorithms',
+    description2: '• Regression, Classification, Clustering, & Dimensionality',
+    skills: 'R, Machine Learning',
+    github: 'https://github.com/linusfackler/CS4375-Machine-Learning/tree/main/Searching%20for%20Similarity',
+    itch: ""
   },
   {
     id: 2,
     image: IMG2,
     title: 'Portfolio Website',
     description: '• Developed a responsive JavaScript website using the React library',
-    description2: '• My first attempt in website development. Easy editable to add future projects/experience',
+    description2: '• My first attempt at website development. Easy editable to add future projects/experience',
     skills: 'React, JavaScript, HTML, CSS',
     github: 'https://github.com/linusfackler/react-portfolio-website',
     itch: ""
@@ -65,12 +65,12 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: 'Searching for Similarity | Intro to Machine Learning (UTD)',
-    description: '• Developed in a team of 4 a program to compare different Machine Learning Algorithms',
-    description2: '• Regression, Classification, Clustering, & Dimensionality',
-    skills: 'R, Machine Learning',
-    github: 'https://github.com/linusfackler/CS4375-Machine-Learning/tree/main/Searching%20for%20Similarity',
-    itch: ""
+    title: 'Kill Switch',
+    description: '• Part of a team of 6 people including programmers, artists, level-designers',
+    description2: '• Developed a local multiplayer game in a 2D environment in under 1 week using C# & OOP principles',
+    skills: 'C#, Unity, OOP',
+    github: 'https://github.com/TrystonMinsquero/SGDA-Fall-Game-Jam-2021',
+    itch: "https://tryston.itch.io/killswitch"
   },
   {
     id: 7,
