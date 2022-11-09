@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-website/static/css/main.f3973cb6.css",
+    "main.js": "/react-portfolio-website/static/js/main.6724518f.js",
+    "static/media/me-about.jpeg": "/react-portfolio-website/static/media/me-about.a8ff3edc98c79d76fc67.jpeg",
+    "static/media/automata.png": "/react-portfolio-website/static/media/automata.1859e152f6fb4fece103.png",
+    "static/media/ml.png": "/react-portfolio-website/static/media/ml.7e4e7cc0386a7c1de21d.png",
+    "static/media/telephone.png": "/react-portfolio-website/static/media/telephone.d85f0d8e5ddb02f124f8.png",
+    "static/media/compiler.png": "/react-portfolio-website/static/media/compiler.a226af06ecf10295f5e8.png",
+    "static/media/exp1.jpg": "/react-portfolio-website/static/media/exp1.fe21594c4650cbdeacf0.jpg",
+    "static/media/mario.png": "/react-portfolio-website/static/media/mario.5ba623ba62762388a36c.png",
+    "static/media/me.jpeg": "/react-portfolio-website/static/media/me.ef6eedf94f7bd3b95920.jpeg",
+    "static/media/killswitch.png": "/react-portfolio-website/static/media/killswitch.805cb823cd9a08d91f37.png",
+    "static/media/resume-linus-fackler.pdf": "/react-portfolio-website/static/media/resume-linus-fackler.968f59f3722ea2ac70e5.pdf",
+    "static/media/exp4.png": "/react-portfolio-website/static/media/exp4.d737cb3cbfa26cf2f02b.png",
+    "static/media/os.png": "/react-portfolio-website/static/media/os.ef1a3fafbd1ecdd0e54c.png",
+    "static/media/exp5.png": "/react-portfolio-website/static/media/exp5.8977a6b91eb71bd99a0f.png",
+    "static/media/react.png": "/react-portfolio-website/static/media/react.e51e00ae6d42524dad57.png",
+    "static/media/terminal.png": "/react-portfolio-website/static/media/terminal.7bea7f6d5986635738ec.png",
+    "static/media/exp6.jpg": "/react-portfolio-website/static/media/exp6.685a6f1e2bcef836f499.jpg",
+    "static/media/exp3.png": "/react-portfolio-website/static/media/exp3.c1b98f7631204514d3b7.png",
+    "static/media/exp2.png": "/react-portfolio-website/static/media/exp2.3ace7574c8d1d19921a4.png",
+    "static/media/utd.png": "/react-portfolio-website/static/media/utd.3ace7574c8d1d19921a4.png",
+    "index.html": "/react-portfolio-website/index.html",
+    "main.f3973cb6.css.map": "/react-portfolio-website/static/css/main.f3973cb6.css.map",
+    "main.6724518f.js.map": "/react-portfolio-website/static/js/main.6724518f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3973cb6.css",
+    "static/js/main.6724518f.js"
+  ]
+}
