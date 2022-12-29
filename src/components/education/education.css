@@ -34,8 +34,12 @@
     margin-top: 2rem;
 }
 
+.education__info {
+    font-size: 1.4rem;
+}
+
 .education__info small {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: var(--color-light);
 }
 
@@ -55,11 +59,36 @@
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) ================== */
 @media screen and (max-width: 600px) {
+
+
     .education__container {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 0.4rem;
     }
+    /* .education__container > div h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0.6rem;
+    }
+    .education__container > div h3 {
+        font-size: 1rem;
+        margin-bottom: 0.6rem;
+    }
+    .education__container > div h4 {
+        font-size: 0.9rem;
+        margin-bottom: 0rem;
+    } */
+
+    .education__info {
+        font-size: 80%;
+        margin-top: 0.8rem;
+    }
+
+    .education__info h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0.6rem;
+    }
+    
     .education__school-image {
-        margin-top: 2rem;
+        margin-top: 0.6rem;
     }
 }
