@@ -7,13 +7,35 @@ import AUTOM from '../../assets/automata.png'
 import TELE from '../../assets/telephone.png'
 import KILL from '../../assets/killswitch.png'
 import CMPLR from '../../assets/compiler.png'
-import TERM from '../../assets/terminal.png'
+import TERMINAL from '../../assets/terminal.png'
 import SQUARE from '../../assets/cometsquare.png'
 
 
 const data = [
   {
     id: 1,
+    image: SQUARE,
+    title: 'CometSquare | HackUTD IX',
+    description: '• Developed a full-stack app that gives users the chance to find clubs on campus easier',
+    description2: '• Integrated a machine-learning-based search algorithm using BERT',
+    skills: 'C#, Python, MongoDB, Unity, PyTorch',
+    github: 'https://github.com/TrystonMinsquero/HackUTD-2022',
+    itch: "",
+    devpost: 'https://devpost.com/software/cometsquare'
+  },
+  {
+    id: 2,
+    image: RCT,
+    title: 'Portfolio Website',
+    description: '• Developed a responsive JavaScript website using the React library',
+    description2: '• My first attempt at website development. Easy editable to add future projects/experience',
+    skills: 'React, Node.js, JavaScript, HTML, CSS',
+    github: 'https://github.com/linusfackler/react-portfolio-website',
+    itch: "",
+    devpost: ""
+  },
+  {
+    id: 3,
     image: ML,
     title: 'Searching for Similarity | Intro to Machine Learning (UTD)',
     description: '• Developed in a team of 4 a program to compare different Machine Learning Algorithms',
@@ -24,18 +46,7 @@ const data = [
     devpost: ""
   },
   {
-    id: 2,
-    image: RCT,
-    title: 'Portfolio Website',
-    description: '• Developed a responsive JavaScript website using the React library',
-    description2: '• My first attempt at website development. Easy editable to add future projects/experience',
-    skills: 'React, JavaScript, HTML, CSS',
-    github: 'https://github.com/linusfackler/react-portfolio-website',
-    itch: "",
-    devpost: ""
-  },
-  {
-    id: 3,
+    id: 4,
     image: OS,
     title: 'Exploring Multiple Processes and IPC | Operating Systems (UTD)',
     description: '• Developed a program that simulates a simple computer system consisting of CPU and Memory',
@@ -46,21 +57,10 @@ const data = [
     devpost: ""
   },
   {
-    id: 4,
-    image: AUTOM,
-    title: 'DFA-Interpreter | Automata Theory (UTD)',
-    description: '• Developed a program that reads in a Deterministic Finite Automata & tests it for correctness',
-    description2: '',
-    skills: 'C++',
-    github: 'https://github.com/linusfackler/Automata-Theory/tree/main/Coding%203',
-    itch: "",
-    devpost: ""
-  },
-  {
     id: 5,
     image: TELE,
     title: 'Energetic Telephone',
-    description: '• Developed a polished 3D game using Godot in a team of 2',
+    description: '• Developed a polished 3D game using the Godot game engine in a team of 2',
     description2: '• Implemented a game in under 24 hours using CS concepts like Data Structures, OOP, and algorithms, ',
     skills: 'Godot Script (Python similar), OOP',
     github: 'https://github.com/PlatinShadow/JameGam',
@@ -80,18 +80,18 @@ const data = [
   },
   {
     id: 7,
-    image: SQUARE,
-    title: 'CometSquare',
-    description: '• Developed a 2D platformer in a team of 3 in a 2 day game jam',
-    description2: '• Won first place at MSU Texas Game Jam in a participants vote',
-    skills: 'GDevelop, JavaScript',
-    github: 'https://github.com/TrystonMinsquero/HackUTD-2022',
+    image: AUTOM,
+    title: 'DFA-Interpreter | Automata Theory (UTD)',
+    description: '• Developed a program that reads in a Deterministic Finite Automata & tests it for correctness',
+    description2: '',
+    skills: 'C++',
+    github: 'https://github.com/linusfackler/Automata-Theory/tree/main/Coding%203',
     itch: "",
-    devpost: 'https://devpost.com/software/cometsquare'
+    devpost: ""
   },
   {
     id: 8,
-    image: TERM,
+    image: TERMINAL,
     title: 'U-Secure by Terminal© | Software Engineering (UTD)',
     description: '• Developing a software for a fingerprint-based ATM',
     description2: '• Planned a 16 week software project in a team of 4 (work in progress)',

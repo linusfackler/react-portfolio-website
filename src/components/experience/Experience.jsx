@@ -13,14 +13,14 @@ const data = [
     id: 1,
     image: IMG1,
     company: 'Infosys',
-    duration: 'May - Aug 2022',
+    duration: 'May - August 2022',
     title: 'Network and Connectivity Architect Intern'
     },
   {
     id: 2,
     image: IMG2,
     company: 'University of Texas at Dallas',
-    duration: 'September 2022 - present',
+    duration: 'September - December 2022',
     title: 'Undergraduate Research Assistant'
   },
   {
