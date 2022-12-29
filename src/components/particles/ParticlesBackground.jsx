@@ -3,6 +3,7 @@ import Particles from "react-tsparticles";
 // import { loadFull } from "tsparticles";
 // import { loadPolygonPath } from "tsparticles-path-polygon";
 
+// import particlesConfig from "./config/particlesConfig";
 import particlesConfig from "./config/particlesConfig";
 
 // let particlesConfig = {

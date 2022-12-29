@@ -9,20 +9,33 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import ParticlesBackground from './components/particles/ParticlesBackground'
+import { createContext, useState } from 'react'
+
+export const ThemeContext = createContext(null);
 
 const App = () => {
+  const[theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
+
   return (
     <>
-        <ParticlesBackground />
-        <Header />
-        <Nav />
-        <About />
-        <Education />
-        <Skills />
-        <Experience />
-        <Portfolio />
-        <Contact />
-        <Footer />
+      <ThemeContext.Provider value={{ theme, toggleTheme }}>
+        <div id={theme}>
+          <ParticlesBackground />
+          <Header />
+          <Nav />
+          <About />
+          <Education />
+          <Skills />
+          <Experience />
+          <Portfolio />
+          <Contact />
+          <Footer />
+        </div>
+      </ThemeContext.Provider>
     </>
   )
 }

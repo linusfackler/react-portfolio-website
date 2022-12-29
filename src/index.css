@@ -10,11 +10,30 @@
     text-decoration: none;
 }
 
+/* #light {
+    --color-bg: #00150f;
+    --color-bg-variant: #00403b;
+    --color-primary: #2effaf;
+    --color-primary-variant: rgba(77, 255, 202, 0.4);
+} */
+
+#dark {
+        /* ============== BLUE ============== */
+        --color-bg: #000215;
+        --color-bg-variant: #000e40;
+        --color-primary: #2ea8ff;
+        --color-primary-variant: rgba(77, 181, 255, 0.4);
+}
+
+#light {
+            /* ============== GREEN ============== */
+    --color-bg: #00150f;
+    --color-bg-variant: #00403b;
+    --color-primary: #2effaf;
+    --color-primary-variant: rgba(77, 255, 202, 0.4);
+}
+
 :root {
-    --color-bg: #000215;
-    --color-bg-variant: #000e40;
-    --color-primary: #2ea8ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
