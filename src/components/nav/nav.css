@@ -31,3 +31,54 @@ nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
 }
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ================== */
+@media screen and (max-width: 480px) {
+    nav {
+        width: 80%;
+        padding-bottom: 0.8rem;
+        /* scale: 80%; */
+        /* padding: 0.6rem 1.5rem; */
+    }
+    
+    nav a {
+        /* width: 80%; */
+        /* scale: 80%; */
+        padding: 0.6rem;
+        font-size: 1.1rem;
+    }
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) ================== */
+@media screen and (max-width: 460px) {
+    nav {
+        width: 80%;
+        padding-bottom: 0.8rem;
+        /* scale: 80%; */
+        /* padding: 0.6rem 1.5rem; */
+    }
+    
+    nav a {
+        /* width: 80%; */
+        /* scale: 80%; */
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) ================== */
+@media screen and (max-width: 400px) {
+    nav {
+        width: 80%;
+        padding-bottom: 0.8rem;
+        /* scale: 80%; */
+        /* padding: 0.6rem 1.5rem; */
+    }
+    
+    nav a {
+        /* width: 80%; */
+        /* scale: 80%; */
+        padding: 0.4rem;
+        font-size: 0.8rem;
+    }
+}
