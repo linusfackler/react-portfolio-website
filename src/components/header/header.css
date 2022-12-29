@@ -1,6 +1,6 @@
 header {
-    height: 130vh;
-    padding-top: 7rem;
+    height: 100vh;
+    padding-top: 3rem;
     overflow: hidden;
 }
 
@@ -26,7 +26,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 8rem;
+    bottom: 18rem;
 }
 
 .header__socials::after {
@@ -38,6 +38,7 @@ header {
 
 /* ================ ME ================ */
 .me {
+    border: 0px solid transparent;
     background: linear-gradient(var(--color-primary), var(--color-bg));
     border-radius: 50rem;
     overflow: hidden;
@@ -48,8 +49,7 @@ header {
     margin-top: 4rem;
     padding: 0.8rem 0.8rem 0.8rem 0.8rem;
     backdrop-filter: blur(3px);
-    border: 1px solid transparent;
-    transition: var(--transition);
+    /* transition: var(--transition); */
 }
 
 .image {
@@ -58,6 +58,7 @@ header {
 }
 
 .me:hover {
+    border: 1px solid transparent;
     border-color: var(--color-primary-variant);
     backdrop-filter: blur(10px);
     background: transparent;
@@ -67,14 +68,14 @@ header {
 .scroll__down {
     position: absolute;
     right: -2.3rem;
-    bottom: 12rem;
+    bottom: 24rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
 }
 
 /* =============== MEDIA QUERIES (LAPTOPS) ================== */
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 800px) {
     .me {
         width: 24rem;
         height: 24rem;
@@ -83,7 +84,7 @@ header {
 }
 
 /* =============== MEDIA QUERIES (LAPTOPS SMALL) ================== */
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 700px) {
     header {
         padding-top: 1rem;
         height: 130vh;
