@@ -6,6 +6,8 @@ import Particles from "react-tsparticles";
 // import particlesConfig from "./config/particlesConfig";
 import particlesConfig from "./config/particlesConfig";
 
+import ThemeContext from './../../App'
+
 // let particlesConfig = {
 //   particles: {
 //     color: {
