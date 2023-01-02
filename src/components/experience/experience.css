@@ -33,12 +33,19 @@
     margin-bottom: 1rem;
 }
 
-.experience__item {
+#dark .experience__item {
     background: linear-gradient(to right bottom, var(--color-bg-variant), var(--color-bg));
     padding: 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+}
+
+#light .experience__item {
+    background: linear-gradient(45deg, var(--color-primary), var(--color-primary-variant));
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 

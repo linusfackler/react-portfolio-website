@@ -30,7 +30,7 @@
     gap: 1.5rem;
 }
 
-.about__card {
+#dark .about__card {
     background: linear-gradient(to right bottom, var(--color-bg-variant), var(--color-bg));
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -39,15 +39,29 @@
     transform: var(--transition);
 }
 
-.about__card:hover {
+#light .about__card {
+    background: linear-gradient(45deg, var(--color-primary), var(--color-primary-variant));
+    border-radius: 1rem;
+    padding: 0.6rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#dark .about__card:hover {
     background: transparent;
     backdrop-filter: blur(8px);
     border-color: var(--color-bg-variant);
     cursor: default;
 }
 
-.about__icon {
+#dark .about__icon {
     color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+}
+
+#light .about__icon {
+    color: var(--color-primary-variant);
     font-size: 1.4rem;
     margin-bottom: 0.3rem;
 }
@@ -56,9 +70,14 @@
     font-size: 0.95rem;
 }
 
-.about__card small {
+#dark .about__card small {
     font-size: 0.7rem;
     color: var(--color-light);
+}
+
+#light .about__card small {
+    font-size: 0.7rem;
+    color: var(--color-white);
 }
 
 .about__content p {

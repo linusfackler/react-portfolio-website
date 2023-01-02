@@ -4,7 +4,7 @@
     gap: 2.5rem;
 }
 
-.portfolio__item {
+#dark .portfolio__item {
     background: linear-gradient(to right bottom, var(--color-bg-variant), var(--color-bg));
     padding: 1.3rem;
     border-radius: 2rem;
@@ -12,19 +12,48 @@
     transition: var(--transition);
 }
 
-.portfolio__item:hover {
+#light .portfolio__item {
+    /* background: linear-gradient(45deg, var(--color-primary), var(--color-primary-variant)); */
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#light .portfolio__item-description {
+    padding: 1rem;
+}
+
+#dark .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
     backdrop-filter: blur(10px);
 }
 
-.portfolio__item-image {
+#dark .portfolio__item-header {
     border-radius: 1.5rem;
     overflow: hidden;
 }
 
-.portfolio__item h3 {
+#light .portfolio__item-header {
+    background: linear-gradient(45deg, var(--color-primary), var(--color-primary-variant));
+    position: relative;
+    padding: 30px 30px 40px;
+    border-radius: 0 0 20% 0;
+    overflow: hidden;
+}
+
+#light .portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+
+#dark .portfolio__item h3 {
     margin: 1.2rem 0 0.3rem;
+}
+
+#light .portfolio__item h3 {
+    margin: 1.2rem 0 0.3rem;
+    color: black;
 }
 
 .portfolio__item h5 {

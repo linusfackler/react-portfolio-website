@@ -139,17 +139,19 @@ const Portfolio = () => {
             {
               return (
                 <article key={id} className='portfolio__item'>
-                  <div className="portfolio__item-image">
-                    <img src={image} alt={title} />
+                  <div className="portfolio__item-header">
+                    <img className="portfolio__item-image" src={image} alt={title} />
                   </div>
-                  <h3>{title}</h3>
-                  <small>{description}<br/></small>
-                  <small>{description2}<br/></small>
-                  <h5>Skills used: &nbsp;
-                    <small>{skills}</small>
-                  </h5>
-                  <div className="portfolio__item-cta">
-                    <a href={github} className='btn' target='_blank'>GitHub</a>
+                  <div className="portfolio__item-description">
+                    <h3>{title}</h3>
+                    <small>{description}<br/></small>
+                    <small>{description2}<br/></small>
+                    <h5>Skills used: &nbsp;
+                      <small>{skills}</small>
+                    </h5>
+                    <div className="portfolio__item-cta">
+                      <a href={github} className='btn' target='_blank'>GitHub</a>
+                    </div>
                   </div>
                 </article>
               )
@@ -159,18 +161,20 @@ const Portfolio = () => {
             else if (devpost === "") {
               return (
                 <article key={id} className='portfolio__item'>
-                  <div className="portfolio__item-image">
-                    <img src={image} alt={title} />
+                  <div className="portfolio__item-header">
+                    <img className="portfolio__item-image" src={image} alt={title} />
                   </div>
-                  <h3>{title}</h3>
-                  <small>{description}<br/></small>
-                  <small>{description2}<br/></small>
-                  <h5>Skills used: &nbsp;
-                    <small>{skills}</small>
-                  </h5>
-                  <div className="portfolio__item-cta">
-                    <a href={github} className='btn' target='_blank'>GitHub</a>
-                    <a href={itch} className='btn btn-primary' target='_blank'>Itch.io</a>
+                  <div className="portfolio__item-description">
+                    <h3>{title}</h3>
+                    <small>{description}<br/></small>
+                    <small>{description2}<br/></small>
+                    <h5>Skills used: &nbsp;
+                      <small>{skills}</small>
+                    </h5>
+                    <div className="portfolio__item-cta">
+                      <a href={github} className='btn' target='_blank'>GitHub</a>
+                      <a href={itch} className='btn btn-primary' target='_blank'>Itch.io</a>
+                    </div>
                   </div>
                 </article>
               )
@@ -180,18 +184,20 @@ const Portfolio = () => {
             else {
               return (
                 <article key={id} className='portfolio__item'>
-                  <div className="portfolio__item-image">
-                    <img src={image} alt={title} />
+                  <div className="portfolio__item-header">
+                    <img className="portfolio__item-image" src={image} alt={title} />
                   </div>
-                  <h3>{title}</h3>
-                  <small>{description}<br/></small>
-                  <small>{description2}<br/></small>
-                  <h5>Skills used: &nbsp;
-                    <small>{skills}</small>
-                  </h5>
-                  <div className="portfolio__item-cta">
-                    <a href={github} className='btn' target='_blank'>GitHub</a>
-                    <a href={devpost} className='btn btn-primary' target='_blank'>Devpost</a>
+                  <div className="portfolio__item-description">
+                    <h3>{title}</h3>
+                    <small>{description}<br/></small>
+                    <small>{description2}<br/></small>
+                    <h5>Skills used: &nbsp;
+                      <small>{skills}</small>
+                    </h5>
+                    <div className="portfolio__item-cta">
+                      <a href={github} className='btn' target='_blank'>GitHub</a>
+                      <a href={devpost} className='btn btn-primary' target='_blank'>Devpost</a>
+                    </div>
                   </div>
                 </article>
               )

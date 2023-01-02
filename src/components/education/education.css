@@ -9,7 +9,7 @@
     scale: 80%;
 }
 
-.education__box > div {
+#dark .education__box > div {
     background: linear-gradient(to right bottom, var(--color-bg-variant), var(--color-bg));
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -17,7 +17,15 @@
     transition: var(--transition);
 }
 
-.education__box > div:hover {
+#light .education__box > div {
+    background: linear-gradient(45deg, var(--color-primary), var(--color-primary-variant));
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#dark .education__box > div:hover {
     border-color: var(--color-primary-variant);
     backdrop-filter: blur(10px);
     background: transparent;
@@ -38,9 +46,18 @@
     font-size: 1.4rem;
 }
 
-.education__info small {
+#dark .education__info small {
     font-size: 1.1rem;
     color: var(--color-light);
+}
+
+#light .education__info small {
+    font-size: 1.1rem;
+    color: var(--color-white);
+}
+
+#light .education__school-image {
+    filter: drop-shadow(4px 4px 0 white);
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================== */
@@ -59,8 +76,6 @@
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) ================== */
 @media screen and (max-width: 600px) {
-
-
     .education__container {
         grid-template-columns: 1fr;
         gap: 0.4rem;

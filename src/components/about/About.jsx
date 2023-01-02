@@ -22,7 +22,7 @@ const About = () => {
             <article className='about__card'>
               <BiCodeBlock className='about__icon'/>
               <h5>Projects</h5>
-              <small>500+ Contributions in the last year</small>
+              <small>600+ Contributions in the last year</small>
             </article>
 
             <article className='about__card'>
