@@ -18,24 +18,25 @@
 } */
 
 #dark {
-        /* ============== BLUE ============== */
-        --color-bg: #000215;
-        --color-bg-variant: #000e40;
-        --color-primary: #2ea8ff;
-        --color-primary-variant: rgba(77, 181, 255, 0.4);
+    /* ============== BLUE ============== */
+    --color-bg: #000215;
+    --color-bg-variant: #000e40;
+    --color-primary: #2ea8ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-light: rgba(255, 255, 255, 0.6);
 }
 
 #light {
             /* ============== GREEN ============== */
-    --color-bg: #00150f;
-    --color-bg-variant: #00403b;
-    --color-primary: #2effaf;
-    --color-primary-variant: rgba(77, 255, 202, 0.4);
+    --color-bg: rgba(255, 0, 13, 0.623);
+    --color-bg-variant: rgba(255, 0, 13, 0.623);
+    --color-primary: rgba(255, 0, 13, 0.623);
+    --color-primary-variant: #ffd000;
+    --color-light: rgb(122, 122, 122);
 }
 
 :root {
     --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
 
     --transition: all 800ms ease;
 
@@ -96,11 +97,20 @@ a {
     transition: var(--transition);
 }
 
+
 a:hover {
     color: var(--color-white);
 }
 
-.btn {
+#light a {
+    color: var(--color-primary);
+}
+
+#light a:hover {
+    color: var(--color-primary-variant);
+}
+
+#dark .btn {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -112,15 +122,43 @@ a:hover {
     backdrop-filter: blur(4px);
 }
 
-.btn:hover {
+#light .btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    /* border: 1px solid var(--color-primary); */
+    transition: var(--transition);
+    backdrop-filter: blur(4px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#dark .btn:hover {
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
 }
 
-.btn-primary {
+#light .btn:hover {
+    /* background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent; */
+}
+
+#dark .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
+}
+
+#light .btn-primary {
+    background: linear-gradient(45deg, var(--color-primary), var(--color-primary-variant));
+    color: var(--color-white);
+}
+
+#light .btn-light {
+    border: 1px solid var(--color-primary);
 }
 
 img {
