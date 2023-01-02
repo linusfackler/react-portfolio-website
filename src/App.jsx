@@ -10,11 +10,12 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import ParticlesBackground from './components/particles/ParticlesBackground'
 import { createContext, useState } from 'react'
+import ReactSwitch from "react-switch"
 
 export const ThemeContext = createContext(null);
 
 const App = () => {
-  const[theme, setTheme] = useState("light");
+  const[theme, setTheme] = useState("dark");
 
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
@@ -24,7 +25,8 @@ const App = () => {
     <>
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
         <div id={theme}>
-          <ParticlesBackground />
+          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+          {theme === "dark" ? <ParticlesBackground /> : <></>}
           <Header />
           <Nav />
           <About />
