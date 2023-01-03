@@ -27,7 +27,7 @@ const data = [
     id: 2,
     image: RCT,
     title: 'Portfolio Website',
-    description: '• Developed a responsive JavaScript website using the React library',
+    description: '• Developed a responsive JavaScript website using React including a dark and light mode',
     description2: '• My first attempt at website development. Easy editable to add future projects/experience',
     skills: 'React, Node.js, JavaScript, HTML, CSS',
     github: 'https://github.com/linusfackler/react-portfolio-website',
@@ -150,7 +150,7 @@ const Portfolio = () => {
                       <small>{skills}</small>
                     </h5>
                     <div className="portfolio__item-cta">
-                      <a href={github} className='btn' target='_blank'>GitHub</a>
+                      <a href={github} className='btn' target='_blank' rel="noreferrer">GitHub</a>
                     </div>
                   </div>
                 </article>
@@ -172,8 +172,8 @@ const Portfolio = () => {
                       <small>{skills}</small>
                     </h5>
                     <div className="portfolio__item-cta">
-                      <a href={github} className='btn' target='_blank'>GitHub</a>
-                      <a href={itch} className='btn btn-primary' target='_blank'>Itch.io</a>
+                      <a href={github} className='btn' target='_blank' rel="noreferrer">GitHub</a>
+                      <a href={itch} className='btn btn-primary' target='_blank' rel="noreferrer">Itch.io</a>
                     </div>
                   </div>
                 </article>
@@ -195,8 +195,8 @@ const Portfolio = () => {
                       <small>{skills}</small>
                     </h5>
                     <div className="portfolio__item-cta">
-                      <a href={github} className='btn' target='_blank'>GitHub</a>
-                      <a href={devpost} className='btn btn-primary' target='_blank'>Devpost</a>
+                      <a href={github} className='btn' target='_blank' rel="noreferrer">GitHub</a>
+                      <a href={devpost} className='btn btn-primary' target='_blank' rel="noreferrer">Devpost</a>
                     </div>
                   </div>
                 </article>

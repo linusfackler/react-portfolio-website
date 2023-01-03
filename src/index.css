@@ -27,7 +27,7 @@
 }
 
 #light {
-            /* ============== GREEN ============== */
+    /* ============== RED / YELLOW ============== */
     --color-bg: rgba(255, 0, 13, 0.623);
     --color-bg-variant: rgba(255, 0, 13, 0.623);
     --color-primary: rgba(255, 0, 13, 0.623);
@@ -59,6 +59,11 @@ body {
     color: var(--color-white);
     line-height: 1.7;
 }
+
+#light {
+    background: rgb(250, 250, 250);
+}
+
 
 /* ================ GENERAL STYLES ================== */
 .container {
@@ -142,9 +147,7 @@ a:hover {
 }
 
 #light .btn:hover {
-    /* background: var(--color-white);
-    color: var(--color-bg);
-    border-color: transparent; */
+    color: black;
 }
 
 #dark .btn-primary {
@@ -157,8 +160,8 @@ a:hover {
     color: var(--color-white);
 }
 
-#light .btn-light {
-    /* border: 1px solid var(--color-primary); */
+#light .btn-light:hover {
+    color: var(--color-primary-variant);
 }
 
 img {

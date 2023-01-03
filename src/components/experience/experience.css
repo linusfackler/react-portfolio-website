@@ -49,10 +49,19 @@
 }
 
 
-.experience__item:hover {
+#dark .experience__item:hover {
     border-color: var(--color-primary-variant);
     backdrop-filter: blur(10px);
     background: transparent;
+}
+
+#dark .experience__item > h5 {
+    font-size: 14.5px;
+}
+
+#light .experience__item > h5 {
+    color: rgb(41, 41, 41);
+    font-size: 14.5px;
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================== */

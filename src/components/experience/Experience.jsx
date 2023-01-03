@@ -58,7 +58,7 @@ const Experience = () => {
     <section id='experience'>
       <h5>My professional</h5>
       <h2 className='experience__heading'>Experience</h2>
-      <a href="https://www.linkedin.com/in/linusfackler/details/experience/" target='_blank'><h5 className='experience__title'>Click here for detailed information</h5></a>
+      <a href="https://www.linkedin.com/in/linusfackler/details/experience/" target='_blank' rel="noreferrer"><h5 className='experience__title'>Click here for detailed information</h5></a>
 
       <div className="container experience__container">
         {

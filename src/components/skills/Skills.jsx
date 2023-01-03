@@ -24,17 +24,17 @@ const Skills = () => {
 
             <article className='skills__details'>
               <AiOutlineCode className='skills__details-icon'/>
-              <h4>JAVA</h4>
-            </article>
-
-            <article className='skills__details'>
-              <AiOutlineCode className='skills__details-icon'/>
               <h4>Python</h4>
             </article>
 
             <article className='skills__details'>
               <AiOutlineCode className='skills__details-icon'/>
-              <h4>C#</h4>
+              <h4>Java</h4>
+            </article>
+
+            <article className='skills__details'>
+              <AiOutlineCode className='skills__details-icon'/>
+              <h4>R</h4>
             </article>
 
             <article className='skills__details'>
@@ -44,7 +44,7 @@ const Skills = () => {
 
             <article className='skills__details'>
               <AiOutlineCode className='skills__details-icon'/>
-              <h4>C</h4>
+              <h4>C#</h4>
             </article>
 
             <article className='skills__details'>
@@ -64,7 +64,7 @@ const Skills = () => {
 
             <article className='skills__details'>
               <AiOutlineCode className='skills__details-icon'/>
-              <h4>Racket</h4>
+              <h4>C</h4>
             </article>
           </div>
         </div>
@@ -74,6 +74,21 @@ const Skills = () => {
         <div className="skills__tech">
         <h3>Technologies</h3>
           <div className="skills__content">
+            <article className='skills__details'>
+              <CiMicrochip className='skills__details-icon'/>
+              <h4>Amazon Web Services</h4>
+            </article>
+
+            <article className='skills__details'>
+              <CiMicrochip className='skills__details-icon'/>
+              <h4>Microsoft Azure</h4>
+            </article>
+
+            <article className='skills__details'>
+              <CiMicrochip className='skills__details-icon'/>
+              <h4>Google Cloud Platform</h4>
+            </article>
+
             <article className='skills__details'>
               <CiMicrochip className='skills__details-icon'/>
               <h4>SQL</h4>
@@ -97,21 +112,6 @@ const Skills = () => {
             <article className='skills__details'>
               <CiMicrochip className='skills__details-icon'/>
               <h4>.NET Framework</h4>
-            </article>
-
-            <article className='skills__details'>
-              <CiMicrochip className='skills__details-icon'/>
-              <h4>Amazon Web Services</h4>
-            </article>
-
-            <article className='skills__details'>
-              <CiMicrochip className='skills__details-icon'/>
-              <h4>Microsoft Azure</h4>
-            </article>
-
-            <article className='skills__details'>
-              <CiMicrochip className='skills__details-icon'/>
-              <h4>Google Cloud Platform</h4>
             </article>
 
             <article className='skills__details'>

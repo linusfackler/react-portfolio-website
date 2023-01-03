@@ -13,7 +13,7 @@
 }
 
 #light .skills__container > div {
-    background: linear-gradient(45deg, var(--color-primary), var(--color-primary-variant));
+    background: linear-gradient(35deg, var(--color-primary), var(--color-primary-variant));
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
