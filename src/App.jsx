@@ -12,6 +12,9 @@ import ParticlesBackground from './components/particles/ParticlesBackground'
 import { createContext, useState } from 'react'
 import ReactSwitch from "react-switch"
 
+import {MdNightlightRound} from 'react-icons/md'
+import {BsSunFill} from 'react-icons/bs'
+
 export const ThemeContext = createContext(null);
 
 const App = () => {
@@ -25,7 +28,16 @@ const App = () => {
     <>
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
         <div id={theme}>
-          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+          {/* <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} uncheckedIcon={MdNightlightRound} checkedIcon={BsSunFill} /> */}
+          <ReactSwitch className="switch"
+            onChange={toggleTheme}
+            checked={theme === "dark"}
+            onColor="#000e40"
+            offColor="ffd000"
+            checkedIcon={<MdNightlightRound className='switch__icon-night' />}
+            uncheckedIcon={<BsSunFill className='switch__icon-day' />}
+            borderRadius="5"
+          />
           {theme === "dark" ? <ParticlesBackground /> : <></>}
           <Header />
           <Nav />

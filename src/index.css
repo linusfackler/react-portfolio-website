@@ -17,6 +17,37 @@
     --color-primary-variant: rgba(77, 255, 202, 0.4);
 } */
 
+/* ================ SWITCH ================ */
+.switch {
+    /* display: flex; */
+    left: 14rem;
+    top: 9rem;
+    z-index: 5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#dark .switch {
+    box-shadow: rgba(255, 255, 255, 0.685) 0px 0px 12px;
+}
+
+.switch__icon-day {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    font-size: 15;
+    width: 60%;
+    margin-left: 15%;
+}
+
+.switch__icon-night {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    font-size: 15;
+    width: 60%;
+    margin-left: 15%;
+}
+
 #dark {
     /* ============== BLUE ============== */
     --color-bg: #000215;
@@ -30,7 +61,7 @@
     /* ============== RED / YELLOW ============== */
     --color-bg: rgba(255, 0, 13, 0.623);
     --color-bg-variant: rgba(255, 0, 13, 0.623);
-    --color-primary: rgba(255, 0, 13, 0.623);
+    --color-primary: #ff000d9f;
     --color-primary-variant: #ffd000;
     --color-light: rgb(110, 110, 110);
 }

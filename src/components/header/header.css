@@ -18,6 +18,34 @@ header {
     color: grey;
 }
 
+/* ================ ARROW ================ */
+.arrow__image {
+    width:  80px;
+    height: 80px;
+    position: absolute;
+    top: 1.6rem;
+    left: 4.7rem;
+}
+
+#dark .arrow__image {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.change__theme {
+    width:  160px;
+    height: 30px;
+    position: absolute;
+    top: 0.2rem;
+    left: 4.7rem;
+    rotate: 5deg;
+}
+
+#dark .change__theme {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
 /* ================ CTA ================ */
 .cta {
     margin-top: 2.5rem;
