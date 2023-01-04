@@ -8,10 +8,10 @@ import {FaItchIo} from 'react-icons/fa'
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href="https://linkedin.com/in/linusfackler" target="_blank" rel="noreferrer"><BsLinkedin/></a>
-        <a href="https://github.com/linusfackler" target="_blank" rel="noreferrer"><BsGithub/></a>
-        <a href="https://devpost.com/linusfackler" target="_blank" rel="noreferrer"><SiDevpost/></a>
-        <a href="https://linusfackler.itch.io/" target="_blank" rel="noreferrer"><FaItchIo/></a>
+        <a href="https://linkedin.com/in/linusfackler" target="_blank"><BsLinkedin/></a>
+        <a href="https://github.com/linusfackler" target="_blank"><BsGithub/></a>
+        <a href="https://devpost.com/linusfackler" target="_blank"><SiDevpost/></a>
+        <a href="https://linusfackler.itch.io/" target="_blank"><FaItchIo/></a>
     </div>
   )
 }

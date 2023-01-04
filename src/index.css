@@ -10,63 +10,6 @@
     text-decoration: none;
 }
 
-/* #light {
-    --color-bg: #00150f;
-    --color-bg-variant: #00403b;
-    --color-primary: #2effaf;
-    --color-primary-variant: rgba(77, 255, 202, 0.4);
-} */
-
-/* ================ SWITCH ================ */
-.switch {
-    display: flex;
-    left: 14rem;
-    top: 9rem;
-    z-index: 5;
-    position: absolute;
-}
-
-#dark .switch {
-    filter: drop-shadow(1px 1px 0 white)
-        drop-shadow(0.5px -0.5px 0 white)
-        drop-shadow(-0.5px 0.5px 0 white);
-}
-
-#light .switch {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.switch__icon-day {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    font-size: 15;
-    width: 60%;
-    margin-left: 15%;
-}
-
-.switch__icon-night {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    font-size: 15;
-    width: 60%;
-    margin-left: 15%;
-}
-
-/* =============== MEDIA QUERIES (LAPTOPS) ================== */
-@media screen and (max-height: 800px) {
-
-}
-
-/* =============== MEDIA QUERIES (MEDIUM DEVICES) ================== */
-@media screen and (max-width: 1024px) {
-    .switch {
-        left: 8rem;
-    }
-}
-
-
 #dark {
     /* ============== BLUE ============== */
     --color-bg: #000215;
@@ -218,6 +161,55 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+/* ================ SWITCH ================ */
+.switch {
+    display: flex;
+    left: 14rem;
+    top: 9rem;
+    z-index: 5;
+    position: absolute;
+}
+
+#dark .switch {
+    filter: drop-shadow(1px 1px 0 white)
+        drop-shadow(0.5px -0.5px 0 white)
+        drop-shadow(-0.5px 0.5px 0 white);
+}
+
+#light .switch {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.switch__icon-day {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    font-size: 15;
+    width: 60%;
+    margin-left: 15%;
+}
+
+.switch__icon-night {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    font-size: 15;
+    width: 60%;
+    margin-left: 15%;
+}
+
+/* =============== MEDIA QUERIES (LAPTOPS) ================== */
+@media screen and (max-height: 800px) {
+
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ================== */
+@media screen and (max-width: 1024px) {
+    .switch {
+        left: 8rem;
+    }
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================== */

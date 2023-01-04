@@ -11,7 +11,7 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <div className="change__theme">
-          <img src={THEME} alt="filter applied" />
+          <img src={THEME}/>
         </div>
         <div className="arrow__image">
           <img src={ARROW}/>
