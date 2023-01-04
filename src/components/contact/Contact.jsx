@@ -27,7 +27,7 @@ const Contact = () => {
           <article className="contact__option">
             <AiOutlineLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
-            <a href="http://www.linkedin.com/in/linusfackler" target="_blank">Connect with me</a>
+            <a href="http://www.linkedin.com/in/linusfackler" target="_blank" rel="noreferrer">Connect with me</a>
           </article>
 
           {/* ========= EMAIL ========== */}
@@ -35,7 +35,7 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>linus.fackler@utdallas.edu</h5>
-            <a href="mailto:linus.fackler@utdallas.edu" target="_blank">Send a message</a>
+            <a href="mailto:linus.fackler@utdallas.edu" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         

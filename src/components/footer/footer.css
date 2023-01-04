@@ -6,8 +6,16 @@ footer {
     margin-top: 7rem;
 }
 
-footer a {
+#light footer {
+    background: linear-gradient(45deg, var(--color-primary), var(--color-primary-variant));
+}
+
+#dark footer a {
     color: var(--color-bg);
+}
+
+#light footer a {
+    color: black;
 }
 
 .permalinks {
