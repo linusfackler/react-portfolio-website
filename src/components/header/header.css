@@ -20,6 +20,8 @@ header {
 
 /* ================ ARROW ================ */
 .arrow__image {
+    display: flex;
+    justify-content: flex-start;
     width:  80px;
     height: 80px;
     position: absolute;
@@ -33,6 +35,7 @@ header {
 }
 
 .change__theme {
+    display: flex;
     width:  160px;
     height: 30px;
     position: absolute;
@@ -89,18 +92,7 @@ header {
 }
 
 #light .me {
-    border: 0px solid transparent;
     background: linear-gradient(90deg, var(--color-primary), var(--color-primary-variant));
-    border-radius: 50rem;
-    overflow: hidden;
-    width: 30rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 15rem);
-    margin-top: 4rem;
-    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
-    backdrop-filter: blur(3px);
-    /* transition: var(--transition); */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -124,6 +116,13 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+}
+
+/* =============== MEDIA QUERIES (LIGHT MODE SWTICH ONLY) ================== */
+@media screen and (max-width: 1600px) {
+    .change__theme, .arrow__image {
+        display: none;
+    }
 }
 
 /* =============== MEDIA QUERIES (LAPTOPS) ================== */
@@ -170,6 +169,10 @@ header {
         height: 20rem;
         left: calc(50% - 10rem);
     }
+
+    .arrow__image, .change__theme {
+        display: none;
+    }
 }
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) ================== */
@@ -179,6 +182,10 @@ header {
     }
 
     .header__socials, .scroll__down {
+        display: none;
+    }
+
+    .change__theme, .arrow__image {
         display: none;
     }
 }

@@ -36,7 +36,7 @@ const App = () => {
             offColor="ffd000"
             checkedIcon={<MdNightlightRound className='switch__icon-night' />}
             uncheckedIcon={<BsSunFill className='switch__icon-day' />}
-            borderRadius="5"
+            borderRadius='5px'
           />
           {theme === "dark" ? <ParticlesBackground /> : <></>}
           <Header />
