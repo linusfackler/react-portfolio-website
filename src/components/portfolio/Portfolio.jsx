@@ -9,22 +9,34 @@ import KILL from '../../assets/killswitch.png'
 import CMPLR from '../../assets/compiler.png'
 import TERMINAL from '../../assets/terminal.png'
 import SQUARE from '../../assets/cometsquare.png'
+import LURA from '../../assets/lura.png'
 
 
 const data = [
   {
     id: 1,
+    image: LURA,
+    title: 'Lura | TAMUhack 2023',
+    description: '• Developed a full-stack iOS app that allows users to self-diagnose themselves for Covid-19',
+    description2: '• Used CNNs for image classification to detect if users have COVID based on their cough',
+    skills: 'Swift, Python, Node.js, Firebase, AWS',
+    github: 'https://github.com/linusfackler/TAMUhack',
+    itch: "",
+    devpost: 'https://devpost.com/software/lura'
+  },
+  {
+    id: 2,
     image: SQUARE,
     title: 'CometSquare | HackUTD IX',
     description: '• Developed a full-stack app that gives users the chance to find clubs on campus easier',
-    description2: '• Integrated a machine-learning-based search algorithm using BERT',
+    description2: '• Integrated a machine-learning-based search algorithm using BERT to find relations between search queries and club descriptions',
     skills: 'C#, Python, MongoDB, Unity, PyTorch',
     github: 'https://github.com/TrystonMinsquero/HackUTD-2022',
     itch: "",
     devpost: 'https://devpost.com/software/cometsquare'
   },
   {
-    id: 2,
+    id: 3,
     image: RCT,
     title: 'Portfolio Website',
     description: '• Developed a responsive JavaScript website using React including a dark and light mode',
@@ -35,7 +47,7 @@ const data = [
     devpost: ""
   },
   {
-    id: 3,
+    id: 4,
     image: ML,
     title: 'Searching for Similarity | Intro to Machine Learning (UTD)',
     description: '• Developed in a team of 4 a program to compare different Machine Learning Algorithms',
@@ -46,7 +58,7 @@ const data = [
     devpost: ""
   },
   {
-    id: 4,
+    id: 5,
     image: OS,
     title: 'Exploring Multiple Processes and IPC | Operating Systems (UTD)',
     description: '• Developed a program that simulates a simple computer system consisting of CPU and Memory',
@@ -57,7 +69,7 @@ const data = [
     devpost: ""
   },
   {
-    id: 5,
+    id: 6,
     image: TELE,
     title: 'Energetic Telephone',
     description: '• Developed a polished 3D game using the Godot game engine in a team of 2',
@@ -68,7 +80,7 @@ const data = [
     devpost: ""
   },
   {
-    id: 6,
+    id: 7,
     image: KILL,
     title: 'Kill Switch',
     description: '• Part of a team of 6 people including programmers, artists, level-designers',
@@ -79,7 +91,7 @@ const data = [
     devpost: ""
   },
   {
-    id: 7,
+    id: 8,
     image: AUTOM,
     title: 'DFA-Interpreter | Automata Theory (UTD)',
     description: '• Developed a program that reads in a Deterministic Finite Automata & tests it for correctness',
@@ -90,7 +102,7 @@ const data = [
     devpost: ""
   },
   {
-    id: 8,
+    id: 9,
     image: TERMINAL,
     title: 'U-Secure by Terminal© | Software Engineering (UTD)',
     description: '• Developing a software for a fingerprint-based ATM',
@@ -99,18 +111,18 @@ const data = [
     github: 'https://github.com/linusfackler/u-secure-terminal',
     itch: "",
     devpost: ""
-  },
-  {
-    id: 9,
-    image: CMPLR,
-    title: 'Compiler Design',
-    description: '• Created a Compiler containing a Scanner and Parser to compile a language',
-    description2: '• Developed a program to parse a grammar and read test files',
-    skills: 'Java, JFlex, Cup',
-    github: 'https://github.com/linusfackler/Compiler-Design',
-    itch: "",
-    devpost: ""
   }
+  // {
+  //   id: 10,
+  //   image: CMPLR,
+  //   title: 'Compiler Design',
+  //   description: '• Created a Compiler containing a Scanner and Parser to compile a language',
+  //   description2: '• Developed a program to parse a grammar and read test files',
+  //   skills: 'Java, JFlex, Cup',
+  //   github: 'https://github.com/linusfackler/Compiler-Design',
+  //   itch: "",
+  //   devpost: ""
+  // }
 
   // {
   //   id: 7,

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpeg'
+import ME from '../../assets/me-about.jpg'
 import {SlGraduation} from 'react-icons/sl'
 import {BiCodeBlock} from 'react-icons/bi'
 
@@ -28,7 +28,7 @@ const About = () => {
             <article className='about__card'>
               <SlGraduation className='about__icon'/>
               <h5>Coursework</h5>
-              <small>3.9 GPA at top 50 CS school</small>
+              <small>3.73 GPA at top 50 CS school</small>
             </article>
 
             <article className='about__card'>

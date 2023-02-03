@@ -20,6 +20,10 @@
     transition: var(--transition);
 }
 
+#light .about__me-image {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .about__me-image:hover {
     transform: rotate(0);
 }
