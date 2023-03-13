@@ -40,7 +40,7 @@ const data = [
     image: RCT,
     title: 'Portfolio Website',
     description: '• Developed a responsive JavaScript website using React including a dark and light mode',
-    description2: '• My first attempt at website development. Easy editable to add future projects/experience',
+    description2: '• Easy editable to add future projects/experience',
     skills: 'React, Node.js, JavaScript, HTML, CSS',
     github: 'https://github.com/linusfackler/react-portfolio-website',
     itch: "",

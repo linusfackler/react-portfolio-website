@@ -23,7 +23,7 @@ const Education = () => {
             Data Structures & Algorithms, Object Oriented Programming (OOP), Programming in C, C++,
             Java, Python, Unix/Linux environments, Machine Learning, Advanced Algorithms & Analysis
           </small>
-          <h4><br/>Attending Masters Program until ~May 2025</h4>
+          <h4><br/>Attending Masters Program at the University of California, Davis until ~May 2025</h4>
         </div>
       </div>
     </div>
