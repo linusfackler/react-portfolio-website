@@ -21,7 +21,7 @@ const Education = () => {
           <h4>Graduating May 2023</h4>
           <small><br/>Relevant Coursework: <br/>
             Data Structures & Algorithms, Object Oriented Programming (OOP), Programming in C, C++,
-            Java, Python, Unix/Linux environments, Machine Learning, Advanced Algorithms & Analysis
+            Java, Python, Machine Learning, Natural Language Processing, Advanced Algorithms & Analysis
           </small>
           <h4><br/>Attending Masters Program at the University of California, Davis until ~May 2025</h4>
         </div>
