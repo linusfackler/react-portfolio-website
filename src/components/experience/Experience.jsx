@@ -13,14 +13,14 @@ const data = [
     id: 1,
     image: IMG1,
     company: 'Infosys',
-    duration: 'May - August 2022',
+    duration: 'May - August 2022 & May - August 2023',
     title: 'Network and Connectivity Architect Intern'
     },
   {
     id: 2,
     image: IMG2,
     company: 'University of Texas at Dallas',
-    duration: 'September - December 2022',
+    duration: 'September 2022 - May 2023',
     title: 'Undergraduate Research Assistant'
   },
   {
@@ -28,7 +28,7 @@ const data = [
     image: IMG3,
     company: 'Fackler IT',
     duration: 'August 2020 - present',
-    title: 'Software Engineer'
+    title: 'Machine Learning/Software Engineer'
   },
   {
     id: 4,

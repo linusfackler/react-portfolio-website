@@ -28,21 +28,20 @@ const About = () => {
             <article className='about__card'>
               <SlGraduation className='about__icon'/>
               <h5>Coursework</h5>
-              <small>3.73 GPA at top 50 CS school</small>
+              <small>3.78 GPA at top 50 CS school</small>
             </article>
 
             <article className='about__card'>
               <SlGraduation className='about__icon'/>
               <h5>Experience</h5>
-              <small>In Software Engineering, Computer Networking, and Research</small>
+              <small>In Software Engineering, Machine Learning, Computer Networks, and Research</small>
             </article>
           </div>
 
           <p>
-            I am a Computer Science Senior at the University of Texas at Dallas (UTD), currently gaining experience 
+            I am a recent Computer Science graduate from the University of Texas at Dallas (UTD), currently gaining experience 
             in the fields of AI/Machine Learning.<br/><br/>
-            I am an international student from Germany, looking for an internship position in the summer of 2023, 
-            after graduating with my Bachelor of Science in Computer Science, before attending Grad school for a Master's in CS.
+            I am an international student from Germany on OPT, looking for a Software/Machine Learning Engineering entry level position.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Connect with me</a>

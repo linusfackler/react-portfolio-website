@@ -19,12 +19,12 @@ const Skills = () => {
           <div className="skills__content">
             <article className='skills__details'>
               <AiOutlineCode className='skills__details-icon'/>
-              <h4>C++</h4>
+              <h4>Python</h4>
             </article>
 
             <article className='skills__details'>
               <AiOutlineCode className='skills__details-icon'/>
-              <h4>Python</h4>
+              <h4>C++</h4>
             </article>
 
             <article className='skills__details'>
