@@ -13,28 +13,28 @@ const data = [
     id: 1,
     image: IMG1,
     company: 'Infosys',
-    duration: 'May - August 2022 & May - August 2023',
-    title: 'Network and Connectivity Architect Intern'
+    duration: 'May 2022 - Present',
+    title: 'Network and Connectivity Architect - Contract'
     },
   {
     id: 2,
     image: IMG2,
     company: 'University of Texas at Dallas',
     duration: 'September 2022 - May 2023',
-    title: 'Undergraduate Research Assistant'
+    title: 'Machine Learning Researcher'
   },
   {
     id: 3,
     image: IMG3,
     company: 'Fackler IT',
-    duration: 'August 2020 - present',
+    duration: 'August 2020 - Present',
     title: 'Machine Learning/Software Engineer'
   },
   {
     id: 4,
     image: IMG4,
     company: 'Streetside Imports',
-    duration: 'August 2021 - present',
+    duration: 'August 2021 - Present',
     title: 'Co-Founder'
   },
   {
